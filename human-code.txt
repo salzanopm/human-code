@@ -14,10 +14,16 @@ ORDINARE UNA PIZZA
 
     1 Guarda il listino…
     2 scegliere una pizza che mi piace
-    IF trovo una pizza che mi piace
-    ALTRIMENTI ordino una prosciutto e funghi
+        IF trovo una pizza che mi piace
+        ALTRIMENTI ordino una prosciutto e funghi
     3 prendo il telefono
-    FOR tutte le pizzerie chiamo faccio il mio ordine 
-        SE conferma ordine
-        ALTRIMENTI 
-    4 
+    4   FOR tutte le pizzerie chiamo faccio il mio ordine 
+            SE conferma ordine procedi al punto 5
+            ALTRIMENTI ritorna al punto 4
+    5 aspetta pizza
+    6 mangia pizza
+        SE mangio tutta butto il cartone
+        ALTRIMENTI metto rimanenze in frigo
+    
+    
+        
