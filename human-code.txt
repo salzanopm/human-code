@@ -13,6 +13,8 @@ CONSEGNA
 
 ORDINARE UNA PIZZA
     1 vedo se ho disponibilità economica
+        SE ho diponibilità procedo al punto 2
+        ALTRIMENTI mi cucino qualcosa a casa
     2 scegliere una pizza che mi piace
         IF trovo una pizza che mi piace procedo
         ALTRIMENTI ordino una prosciutto e funghi
